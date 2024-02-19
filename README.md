@@ -3,6 +3,7 @@ EEG signals are collected using OpenBCI, during the execution of motor activitie
 - Last Changes (18/02/2024)
 
 New version of data acquisition in folder **"AcquisitionProgram_V2.0"** , with two methods.
+- Link: https://github.com/vasanza/OpenBCI/tree/main/AcquisitionProgram_V2.0
 - Method 1 : Using pyLSL (Library) and OpenBCI_GUI
 - Method 2 : Using Brainflow (Library)
 
