@@ -20,7 +20,7 @@ Biomedical Electroencephalography (EEG) signals are the result of measuring the 
 
 Database for Upper and Lower Limb Task Based on EEG Signals During the Execution of Motor and Motorimagery Tasks
 - Main Code: https://github.com/Human-Machine-Interface/OpenBCI_Data_Acquisition
-- Data Mendeley: http://dx.doi.org/10.17632/w9xfz56txv.2
+- Data Mendeley: https://data.mendeley.com/datasets/x8psbz3f6x/2
 - More Matlab Examples: https://github.com/Human-Machine-Interface
 - Hardware: FM=16 chanels , Cyton + Dasy , Campling Rate = 125 Hz
 - Subjects: 24
