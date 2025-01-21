@@ -1,6 +1,5 @@
 # OpenBCI Data Acquisition
 EEG signals are collected using OpenBCI, during the execution of motor activities, motor imaging and motion observation!
-- Last Changes (18/02/2024)
 
 New version of data acquisition in folder **"AcquisitionProgram_V2.0"** , with two methods.
 - Link: https://github.com/vasanza/OpenBCI/tree/main/AcquisitionProgram_V2.0
