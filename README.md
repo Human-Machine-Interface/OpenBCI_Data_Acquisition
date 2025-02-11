@@ -28,6 +28,8 @@ Database for Upper and Lower Limb Task Based on EEG Signals During the Execution
 # Equipment
 We use the OpenBCI Cyton + Daisy (www.openbci.com) [1] Biosensing Board for EEG signal recording. The equipment has an active bandpass filter in the 5 to 50 Hz range, additionally, a notch filter at 60 Hz [1]. This non-invasive device operates within a sampling frequency of 125 Hz and has 16 dry electrodes with two ground references, distributed in the international 10–20 system. All 16 EEG electrodes were recorded in monopolar configuration, in which the potential of each electrode is compared with a neutral electrode located in both lobes of the ears [2]. To guarantee the replicability of the EEG signal recording, the international 10/10 system standardized by the AES was used [10]. The distribution of the 16 electrodes is shown in the figure:
 
+![image](https://github.com/user-attachments/assets/e7c260f1-f55f-418c-9c96-c6446327b01d)
+
 ![image](https://github.com/user-attachments/assets/0585a66f-c9a4-4255-9215-ce7315257354)
 
 The connections of the electrodes to the Cyton and Dazzy PCBs are as follows:
