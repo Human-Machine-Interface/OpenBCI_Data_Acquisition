@@ -18,6 +18,7 @@ Note: Check the path of the images and the folder to save the files
 Biomedical Electroencephalography (EEG) signals are the result of measuring the electric potential difference generated on the scalp surface by neural activity corresponding to each brain area. Accurate and automatic detection of neural activity from the upper and lower limbs using EEG may be helpful in rehabilitating people suffering from mobility limitations or disabilities. This article presents a dataset containing 7440 CSV files from 60 test subjects during motor and motor imagery tasks. The motor and motor imagery tasks performed by the test subjects were: Closing Left Hand (CLH), Closing Right Hand (CRH), Dorsal flexion of Left Foot (DLF), Plantar flexion of Left Foot (PLF), Dorsal flexion of Right Foot (DRF), Plantar flexion of Right Foot (PRF) and Resting in between tasks (Rest). The volunteers were recruited from research colleagues at ESPOL and patients at the Luis Vernaza Hospital in Guayaquil, Ecuador. Each CSV file has 501 rows, of which the first one lists the electrodes from 0 to 15, and the remaining 500 rows correspond to 500 data recorded during the task is performed due to sample rate. In addition, each file has 17 columns, of which the first one indicates the sampling number and the remaining 16 columns represent 16 surface EEG electrodes. As a data recording equipment, the OpenBCI is used in a monopolar setup with a sampling rate of 125 Hz. This work includes statistical measures about the demographic information of all recruited test subjects. Finally, we outline the experimental methodology used to record EEG signals during upper and lower limb task execution. This dataset is called MILimbEEG and contains microvolt (µV) EEG signals acquired during motor and motor imagery tasks. The collected data may facilitate the evaluation of EEG signal detection and classification models dedicated to task recognition.
 
 Database for Upper and Lower Limb Task Based on EEG Signals During the Execution of Motor and Motorimagery Tasks
+- **Journal**: https://www.sciencedirect.com/science/article/pii/S2352340923006406?via%3Dihub
 - Main Code: https://github.com/Human-Machine-Interface/OpenBCI_Data_Acquisition
 - Data Mendeley: https://data.mendeley.com/datasets/x8psbz3f6x/2
 - More Matlab Examples: https://github.com/Human-Machine-Interface
@@ -50,7 +51,6 @@ The connections of the electrodes to the Cyton and Dazzy PCBs are as follows:
   - Electrode 16: CH8 (T4 in 10-10 system EEG)
 This is summarized in the following image:
 ![ultracoretex_mark4_nodelocation](https://github.com/user-attachments/assets/a4064d1b-d4b8-4ed7-acdc-b184a2b40fbb)
-
 
 # Visual Stimuli Used
 ## Baseline with Eyes Open (BEO)
