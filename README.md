@@ -24,6 +24,31 @@ Database for Upper and Lower Limb Task Based on EEG Signals During the Execution
 - Hardware: FM=16 chanels , Cyton + Dasy , Campling Rate = 125 Hz
 - Subjects: 60
 
+# Equipment
+We use the OpenBCI Cyton + Daisy (www.openbci.com) [1] Biosensing Board for EEG signal recording. The equipment has an active bandpass filter in the 5 to 50 Hz range, additionally, a notch filter at 60 Hz [1]. This non-invasive device operates within a sampling frequency of 125 Hz and has 16 dry electrodes with two ground references, distributed in the international 10–20 system. All 16 EEG electrodes were recorded in monopolar configuration, in which the potential of each electrode is compared with a neutral electrode located in both lobes of the ears [2]. To guarantee the replicability of the EEG signal recording, the international 10/10 system standardized by the AES was used [10]. The distribution of the 16 electrodes is shown in the figure:
+
+![image](https://github.com/user-attachments/assets/633ad468-5b74-4c41-9c2c-f91e6f0a5713)
+
+The connections of the electrodes to the Cyton and Dazzy PCBs are as follows:
+- [Cyton board](https://docs.openbci.com/Cyton/CytonLanding/)
+  - Electrode 1: CH1 (FC5 in 10-10 system EEG)
+  - Electrode 2: CH2 (F3 in 10-10 system EEG)
+  - Electrode 3: CH3 (FZ in 10-10 system EEG)
+  - Electrode 4: CH4 (F4 in 10-10 system EEG)
+  - Electrode 5: CH5 (FC5 in 10-10 system EEG)
+  - Electrode 6: CH6 (FC1 in 10-10 system EEG)
+  - Electrode 7: CH7 (FC2 in 10-10 system EEG)
+  - Electrode 8: CH8 (CZ in 10-10 system EEG)
+- [Dazzy board](https://docs.openbci.com/GettingStarted/Boards/DaisyGS/)
+  - Electrode 9: CH1 (T3 in 10-10 system EEG)
+  - Electrode 10: CH2 (CP5 in 10-10 system EEG)
+  - Electrode 11: CH3 (C3 in 10-10 system EEG)
+  - Electrode 12: CH4 (CP1 in 10-10 system EEG)
+  - Electrode 13: CH5 (CP2 in 10-10 system EEG)
+  - Electrode 14: CH6 (C4 in 10-10 system EEG)
+  - Electrode 15: CH7 (CP6 in 10-10 system EEG)
+  - Electrode 16: CH8 (T4 in 10-10 system EEG)
+  
 # Visual Stimuli Used
 ## Baseline with Eyes Open (BEO)
 ![Baseline](https://user-images.githubusercontent.com/12642226/134744392-57566b82-94a9-4061-a7fd-289a851e1f42.jpg)
